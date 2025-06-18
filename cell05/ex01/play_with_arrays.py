@@ -1,5 +1,6 @@
-array = [2, 8, 9, 48, 8, 22, -12, 2]
-array2 = [value + 2 for value in array]
-
-print(f'Orginal array: {array}')
-print(f'New array: {array2}')
+original_array = [2, 8, 9, 48, 8, 22, -12, 2]
+new_array = []
+for num in original_array:
+    new_array.append(num + 2)
+print("Original array:", original_array)
+print("New array (each value +2):", new_array)
