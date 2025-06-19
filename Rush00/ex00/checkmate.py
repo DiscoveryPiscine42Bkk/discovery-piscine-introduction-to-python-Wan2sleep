@@ -2,13 +2,11 @@ def checkmate(board: str):
     board = board.strip().split('\n')
     size = len(board)
 
-    # Check if board is a square
     for row in board:
         if len(row) != size:
             print("Error")
             return
 
-    # Find King
     king_pos = None
     for i in range(size):
         for j in range(len(board[i])):
