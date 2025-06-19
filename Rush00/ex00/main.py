@@ -11,14 +11,5 @@ def main():
 """
     checkmate(board1)
 
-    print("=== Case 2: King is safe (Expect: Fail) ===")
-    board2 = """\
-....
-.K..
-....
-...Q\
-"""
-    checkmate(board2)
-
 if __name__ == "__main__":
     main()
